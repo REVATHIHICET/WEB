@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Newsletter Signup</title>
+</head>
+<body>
+<h1>Newsletter Signup</h1>
+<form on submit="return validate form()">
+<lable> Name:</lable>
+<input type="text" id="phone">
+<br><br>
+<button type="submit">subscribe</button>
+</form>
+<script>
+function validate form(){
+let name=document.getElementByld("name").value;
+let email=document.getElementByld("email").value;
+let phone=document.getElementByld("phone").value;
+if(name=""//email=""//phone="") {
+alert("please fill in all fields");
+return false;
+}
+alert("Newsletter subscription successful");
+return false;
+}
+</script>
+</body>
+</html>
